@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(rgb(166, 159, 255), rgb(214, 214, 214));
+}
+
+.checkOutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25em;
+  height: 90vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+.detail-container .details {
+  height: 1.5em;
+  width: 15em;
+  border-radius: 15px;
+  border-width: 15px;
+  border: white;
+  box-shadow: 0 0 6px rgb(166, 159, 255);
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.checkOutButton {
+  height: 4em;
+  width: 24em;
+  margin: 10px;
+  margin-top: 25px;
+  border-radius: 15px;
+  background: rgb(124, 114, 255);
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+.checkOutButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgb(199, 199, 199);
+  cursor: pointer;
+}
+.checkOutButton p {
+  color: white;
+  font-size: 20px;
+  margin-top: 13px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-height: 750px) {
+  .checkOutContainer,
+  .checkOutButton {
+    height: 100%;
+    margin-top: 0;
+  }
+}

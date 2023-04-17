@@ -1,0 +1,95 @@
+/* CHECK IN PAGE */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(rgb(166, 159, 255), rgb(214, 214, 214));
+}
+
+.checkInContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25em;
+  height: 75vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+.input-container input {
+  height: 1.5em;
+  width: 15em;
+  border-radius: 15px;
+  border-width: 15px;
+  border: white;
+  box-shadow: 0 0 6px rgb(166, 159, 255);
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.input-container select {
+  height: 2.5em;
+  width: 16em;
+  border-radius: 15px;
+  border-width: 15px;
+  border: white;
+  box-shadow: 0 0 6px rgb(166, 159, 255);
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.input-container select {
+  cursor: pointer;
+}
+
+input:focus {
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
+    0 0 16px rgb(125, 115, 255);
+  outline: 0 none;
+}
+a {
+  color: rgb(0, 68, 255);
+  font-weight: 500;
+  margin: 5px;
+  cursor: pointer;
+  align-self: baseline;
+  margin-left: 40px;
+}
+.checkInButton {
+  height: 4em;
+  width: 24em;
+  margin: 10px;
+  margin-top: 25px;
+  border-radius: 15px;
+  background: rgb(124, 114, 255);
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+.checkInButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgb(199, 199, 199);
+  cursor: pointer;
+}
+.checkInButton p {
+  color: white;
+  font-size: 20px;
+  margin-top: 13px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-height: 750px) {
+  .checkInContainer,
+  .checkInButton {
+    height: 100%;
+    margin-top: 0;
+  }
+}

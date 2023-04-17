@@ -1,0 +1,40 @@
+.Container {
+  display: flex;
+  width: 100%;
+}
+
+.tableContainer {
+  border-radius: 10px;
+  margin: 0px 10px;
+}
+
+.datatable {
+  height: 600px;
+  padding: 10px 0px;
+}
+
+.tableContainer {
+  margin: 10px 20px;
+}
+
+.adminCheckOutButton {
+  padding: 4px 5px;
+  border-radius: 5px;
+  color: darkblue;
+  background-color: #b4bbff;
+  cursor: pointer;
+}
+.adminCheckOutButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgb(199, 199, 199);
+  cursor: pointer;
+}
+
+.adminCheckOutButton:disabled,
+.adminCheckOutButton[disabled] {
+  padding: 4px 5px;
+  border-radius: 5px;
+  color: rgb(43, 43, 48);
+  background-color: #b4bbff;
+  cursor: pointer;
+}
