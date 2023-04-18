@@ -1,0 +1,45 @@
+.table-container {
+  margin: 10px 0px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.searchBar {
+  margin: 5px 0px;
+  height: 1.5em;
+  width: 15em;
+  outline: none;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.table-header {
+  font-weight: bold;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.table-header th {
+    padding: 20px;
+}
+
+.table-row td {
+    padding: 10px;
+}
+
+.form-control {
+  width: 200px;
+}
+
+.adminCheckOutButton {
+    padding: 4px 5px;
+    border-radius: 5px;
+    color: darkblue;
+    background-color: #b4bbff;
+    cursor: pointer;
+  }
+  .adminCheckOutButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 12px rgb(199, 199, 199);
+    cursor: pointer;
+  }

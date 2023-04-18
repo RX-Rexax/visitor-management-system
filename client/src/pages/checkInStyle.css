@@ -56,14 +56,6 @@ input:focus {
     0 0 16px rgb(125, 115, 255);
   outline: 0 none;
 }
-a {
-  color: rgb(0, 68, 255);
-  font-weight: 500;
-  margin: 5px;
-  cursor: pointer;
-  align-self: baseline;
-  margin-left: 40px;
-}
 .checkInButton {
   height: 4em;
   width: 24em;
@@ -83,6 +75,12 @@ a {
   color: white;
   font-size: 20px;
   margin-top: 13px;
+}
+
+.linkToLogin {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */

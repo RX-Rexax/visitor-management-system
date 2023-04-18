@@ -5,7 +5,19 @@ const AuthReducer = (state, action) => {
           currentUser: action.payload,
         };
       }
+      
       case "CHECK_OUT": {
+        return {
+          currentUser: null,
+        };
+      }
+
+      case "LOGIN": {
+        return {
+          currentUser: action.payload,
+        };
+      }
+      case "LOGOUT": {
         return {
           currentUser: null,
         };
