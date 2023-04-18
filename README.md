@@ -36,6 +36,8 @@ How to Login as an admin:
 2. When redirected to the 'Login' page, enter the username and password to log into the admin dashboard.
 3. You will see all the visitors that has checked-in before and all the necessary details regarding the visitors.
 4. When there are visitors that have not checked out yet, you can click on the 'Check Out' button to make the visitor check out.
+5. You can filter the data based on the headers by clicking them.
+6. You can also search the visitors by entering the search bar.
 
 
 ## Screenshots
